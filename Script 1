@@ -16,15 +16,3 @@ fprintf('Iteration %d: a=%.6f, b=%.6f, c=%.6f, f(c)=%.6f\n', iter, a, b, c, fc);
         a = c;
     end
 end
-
-fprintf('Root is approximately at x = %.8f\n', c);
-Iteration 1: a=0.000000, b=1.000000, c=0.500000, f(c)=-0.875000
-Iteration 2: a=0.000000, b=0.500000, c=0.250000, f(c)=0.015625
-Iteration 3: a=0.250000, b=0.500000, c=0.375000, f(c)=-0.447266
-Iteration 4: a=0.250000, b=0.375000, c=0.312500, f(c)=-0.219482
-Iteration 5: a=0.250000, b=0.312500, c=0.281250, f(c)=-0.102753
-Iteration 6: a=0.250000, b=0.281250, c=0.265625, f(c)=-0.043758
-Iteration 7: a=0.250000, b=0.265625, c=0.257813, f(c)=-0.014114
-Iteration 8: a=0.250000, b=0.257813, c=0.253906, f(c)=0.000744
-Root is approximately at x = 0.25390625
->> 
